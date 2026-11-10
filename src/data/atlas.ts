@@ -1,0 +1,266 @@
+export const atlas = {
+  name: "Khat Vanna",
+  short: "KV",
+  wordmark: "VANNA",
+  folio: "(KV_ATLAS)",
+  version: "V2.0",
+  brandLabel: "Vanna",
+  based: "// BASED NY //",
+  socials: "BE / DR / X",
+  tagline: "// We blend bold UI/UX with powerful development to scale your brand.",
+  heroLines: [
+    ["CREATIVE WORKS,", "THOUGHTFUL CODE."],
+    ["DESIGNING WITH INTENTION,", "BUILDING WITH PURPOSE."],
+    ["WHERE IDEAS TAKE", "FORM THROUGH MOTION."],
+  ],
+  servicesSide: ["UI/UX DESIGN", "BRANDING", "DIGITAL MARKETING", "WEB DEVELOPMENT"],
+  nav: [
+    { href: "#home", label: "Home" },
+    { href: "#about", label: "About" },
+    { href: "#work", label: "Projects" },
+    { href: "#services", label: "Services" },
+    { href: "#pricing", label: "Pricing" },
+    { href: "#contact", label: "Contact" },
+  ],
+  founder: {
+    name: "Khat Vanna",
+    role: "Founder",
+    image: "/creflow/hero/contact-card.avif",
+  },
+  /** Creflow cinematic hero */
+  heroImage: "/creflow/hero/home-hero.avif",
+  /** Portrait used in about / impact */
+  portrait: "/creflow/about/about-main.avif",
+  portraitAlt: "/creflow/hero/contact-card.avif",
+  logos: ["Kalapak", "Norton", "DDD", "Laravel", "Next.js", "Flutter"],
+  introSide: "DESIGNING IDEAS INTO MEANINGFUL EXPERIENCES.",
+  intro: [
+    "I'm a Computer Science student and full-stack builder focused on thoughtful digital experiences that balance creativity, clarity, and purpose. I turn ideas into products that look sharp and work beautifully.",
+    "My approach mixes strategic thinking with careful craft — simplifying complex problems, shaping intuitive interfaces, and shipping with character from concept to launch.",
+  ],
+  scope: ["Web Design", "Ui", "Development", "Prototype", "Wireframe"],
+  craft: [
+    {
+      title: "1. UI / UX Design",
+      text: "Creating intuitive digital experiences through thoughtful interface and user experience design.",
+      image: "/creflow/projects/pro-thm-1.avif",
+      pos: "center" as const,
+    },
+    {
+      title: "2. Web Systems",
+      text: "Modern responsive sites that balance visual impact, usability, and clear communication.",
+      image: "/creflow/projects/pro-thm-2.avif",
+      pos: "center" as const,
+    },
+    {
+      title: "3. Full-stack Build",
+      text: "End-to-end products with React, Next.js, Laravel, and Flutter — from concept to deploy.",
+      image: "/creflow/projects/pro-thm-3.avif",
+      pos: "center" as const,
+    },
+    {
+      title: "4. Motion Craft",
+      text: "Purposeful animation and interactive storytelling that bring ideas to life.",
+      image: "/creflow/projects/pro-thm-4.avif",
+      pos: "center" as const,
+    },
+  ],
+  stats: [
+    {
+      value: "12+",
+      label: "Shipped builds",
+      text: "Web and mobile products delivered with clarity, speed, and care.",
+    },
+    {
+      value: "3+",
+      label: "Years building",
+      text: "From university labs to team leadership and real client work.",
+    },
+  ],
+  impactImage: "/creflow/about/impact.avif",
+  projects: [
+    {
+      title: "Kalapak",
+      industry: "Developer Collective",
+      date: "12 March 2026",
+      text: "Brand and digital home for a bold developer collective with distinctive presence.",
+      image: "/creflow/projects/pro-thm-1.avif",
+      href: "https://www.kalapak-team.space",
+    },
+    {
+      title: "KV Atlas",
+      industry: "Personal Brand",
+      date: "25 Sep 2026",
+      text: "A cinematic portfolio fusing editorial craft with agency-grade motion.",
+      image: "/creflow/projects/pro-thm-2.avif",
+      href: "#work",
+    },
+    {
+      title: "Web Builds",
+      industry: "Full-stack",
+      date: "18 January 2026",
+      text: "Laravel and React applications crafted for clarity and consistency.",
+      image: "/creflow/projects/pro-thm-3.avif",
+      href: "#work",
+    },
+    {
+      title: "Mobile Lab",
+      industry: "Product Design",
+      date: "02 February 2026",
+      text: "Flutter experiences that turn complex needs into simple flows.",
+      image: "/creflow/projects/pro-thm-4.avif",
+      href: "#work",
+    },
+    {
+      title: "Studio North",
+      industry: "Creative Direction",
+      date: "09 June 2026",
+      text: "Confident brand presence across digital platforms and campaigns.",
+      image: "/creflow/projects/pro-thm-5.avif",
+      href: "#work",
+    },
+  ],
+  discover: "Discover a curated collection of brands, digital experiences, and creative work.",
+  statement: "Each project is a chance to learn, experiment and push my limits.",
+  awardsLeft: "THOUGHTFUL DESIGN. BOLD IDEAS.",
+  awardsRight: "A MULTIDISCIPLINARY BUILDER.",
+  years: ["2023", "2024", "2025", "2026"],
+  awardLabel: "Craft Excellence · Norton · Kalapak",
+  testimonials: [
+    {
+      company: "Norton Circle",
+      quote:
+        "Vanna’s craft completely transformed our digital presence — clarity, motion, and delivery beyond expectation.",
+      name: "Prum Chansamedy",
+      role: "Professor · Norton University",
+      image: "/creflow/about/testimonial-2.avif",
+    },
+    {
+      company: "Kalapak",
+      quote:
+        "From first concept to final build, Vanna elevated the vision into something distinctive and effortless.",
+      name: "Team Lead",
+      role: "Kalapak Code Team",
+      image: "/creflow/about/testimonial-3.avif",
+    },
+    {
+      company: "Studio Partner",
+      quote:
+        "Exceptional aesthetics and clean execution. Complex ideas became a beautiful, usable product.",
+      name: "Design Collaborator",
+      role: "Product Partner",
+      image: "/creflow/about/impact.avif",
+    },
+  ],
+  gallery: [
+    "/creflow/projects/project-a.avif",
+    "/creflow/projects/project-b.avif",
+    "/creflow/projects/project-c.avif",
+  ],
+  reelImage: "/creflow/hero/reel-poster.jpg",
+  ctaImages: [
+    "/creflow/cta/cta-1.avif",
+    "/creflow/cta/cta-2.avif",
+    "/creflow/cta/cta-3.avif",
+    "/creflow/cta/cta-4.avif",
+    "/creflow/cta/cta-5.avif",
+    "/creflow/cta/cta-6.avif",
+  ],
+  services: [
+    {
+      id: "001",
+      title: "Digital Marketing",
+      text: "Growing your online presence through data-driven strategies, targeted campaigns, and engaging content.",
+    },
+    {
+      id: "002",
+      title: "Brand Identity",
+      text: "Designing memorable logos and visual assets that strengthen recognition and make your brand stand out.",
+    },
+    {
+      id: "003",
+      title: "Web Development",
+      text: "Building fast, secure, responsive websites tailored to your business across every device.",
+    },
+    {
+      id: "004",
+      title: "UI/UX Design",
+      text: "Crafting intuitive digital experiences that delight users and maximize conversion rates.",
+    },
+    {
+      id: "005",
+      title: "Motion & Video",
+      text: "High-quality motion graphics and reels that capture attention and elevate digital channels.",
+    },
+  ],
+  pricing: [
+    {
+      name: "Small Business",
+      price: "$1,999",
+      desc: "Best for startups and growing businesses looking to establish a solid professional presence.",
+      popular: false,
+    },
+    {
+      name: "Startup",
+      price: "$3,999",
+      desc: "The ultimate package for established businesses requiring full-scale digital transformation.",
+      popular: true,
+    },
+    {
+      name: "Enterprise",
+      price: "$5,999",
+      desc: "A comprehensive package for businesses seeking powerful solutions to growth.",
+      popular: false,
+    },
+  ],
+  features: [
+    "Business Strategy Consultant",
+    "Tackling diverse challenges",
+    "Personality of brand",
+    "Global market research",
+    "Advance analysis",
+  ],
+  faqs: [
+    {
+      q: "What services does your digital studio offer?",
+      a: "We provide web design, branding, UI/UX, full-stack development, and digital strategy to build a strong online presence.",
+    },
+    {
+      q: "How long does a typical project take?",
+      a: "Most projects take between two and eight weeks, depending on scope, complexity, revisions, and content readiness.",
+    },
+    {
+      q: "Do you provide responsive website design?",
+      a: "Yes — fully responsive experiences across desktops, tablets, and mobile with performance and accessibility in mind.",
+    },
+    {
+      q: "Can you redesign our existing website?",
+      a: "Absolutely. We modernize visuals, improve UX, optimize performance, and align every element with your goals.",
+    },
+    {
+      q: "How involved will we be in the process?",
+      a: "You'll stay involved with regular updates, feedback sessions, and collaborative reviews throughout.",
+    },
+    {
+      q: "Do you offer support after launch?",
+      a: "Yes — maintenance, updates, monitoring, and technical support to keep things secure and running smoothly.",
+    },
+  ],
+  insights: [
+    {
+      date: "June 15, 2026",
+      title: "How AI is Transforming Modern Web Design",
+      text: "Discover how AI tools reshape experiences and streamline development for faster, smarter results.",
+      image: "/creflow/insights/insight-1.avif",
+    },
+    {
+      date: "June 02, 2026",
+      title: "Maximizing Social Media ROI for Small Businesses",
+      text: "Practical strategies to optimize budget, reach the right audiences, and drive measurable growth.",
+      image: "/creflow/insights/insight-2.avif",
+    },
+  ],
+  email: "khatvanna2005@gmail.com",
+  phone: "092 745 117",
+  bio: "Khat Vanna｜Personal portfolio・Full-stack development・Creative digital experiences. Combining thoughtful design, motion storytelling, and technical craft.",
+} as const;
